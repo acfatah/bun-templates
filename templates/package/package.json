@@ -1,5 +1,5 @@
 {
-  "name": "package",
+  "name": "package-starter",
   "type": "module",
   "version": "0.0.0",
   "description": "A starter for creating a TypeScript package.",

@@ -1,5 +1,5 @@
 {
-  "name": "blank",
+  "name": "basic",
   "type": "module",
   "private": true,
   "module": "index.ts",
