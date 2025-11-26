@@ -22,7 +22,7 @@
     "precommit": "bun run lint:staged"
   },
   "peerDependencies": {
-    "@typescript/native-preview": "^7.0.0-dev.20251113.1"
+    "@typescript/native-preview": "^7.0.0-dev.20251126.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
