@@ -11,7 +11,9 @@ async function sleep(timeout: number) {
   return new Promise(r => setTimeout(r, timeout))
 }
 
-async function action(name: string, options: HelloCommandOptions) {
+async function action(name: string, args: any) {
+  const opts = args.opts() as HelloCommandOptions
+
   try {
     consola.start('Starting program...')
     await sleep(1000)
@@ -24,7 +26,7 @@ async function action(name: string, options: HelloCommandOptions) {
     await sleep(1000)
     consola.success('Program finished...')
 
-    if (options.printArgs) {
+    if (opts.printArgs) {
       console.log({
         arguments: {
           name,
