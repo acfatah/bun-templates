@@ -14,14 +14,14 @@ async function sleep(timeout: number) {
 async function action(name: string, options: HelloCommandOptions) {
   try {
     consola.start('Starting program...')
-    sleep(1000)
+    await sleep(1000)
 
     if (name)
       console.log(`Hello ${name}!`)
     else
       console.log('Hello world!')
 
-    sleep(1000)
+    await sleep(1000)
     consola.success('Program finished...')
 
     if (options.printArgs) {
