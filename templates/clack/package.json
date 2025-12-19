@@ -36,20 +36,20 @@
     "release": "bunx --bun bumpp --execute=\"bun install\""
   },
   "peerDependencies": {
-    "@typescript/native-preview": "^7.0.0-dev.20251113.1"
+    "@typescript/native-preview": "^7.0.0-dev.20251219.1"
   },
   "dependencies": {
     "@clack/prompts": "^0.11.0",
     "ansis": "^4.2.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.2.0",
-    "@commitlint/cli": "^20.1.0",
-    "@commitlint/config-conventional": "^20.0.0",
-    "@types/bun": "^1.3.3",
+    "@antfu/eslint-config": "^6.7.1",
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "@types/bun": "^1.3.5",
     "bun-plugin-dts": "^0.3.0",
-    "eslint": "^9.39.1",
-    "eslint-plugin-format": "^1.0.2",
+    "eslint": "^9.39.2",
+    "eslint-plugin-format": "^1.1.0",
     "jiti": "^2.6.1",
     "simple-git-hooks": "^2.13.1"
   },

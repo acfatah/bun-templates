@@ -20,10 +20,10 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.2.0",
-    "@types/bun": "^1.3.3",
-    "eslint": "^9.39.1",
-    "eslint-plugin-format": "^1.0.2",
+    "@antfu/eslint-config": "^6.7.1",
+    "@types/bun": "^1.3.5",
+    "eslint": "^9.39.2",
+    "eslint-plugin-format": "^1.1.0",
     "jiti": "^2.6.1"
   }
 }
