@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "update:all": "bun scripts/update-all.ts",
+    "outdated:all": "bun scripts/outdated-all.ts",
     "copy-common-to-templates": "bun scripts/copy-common-to-templates.ts",
     "lint": "scripts/lint-all.ts",
     "lint:changed": "scripts/lint-all.ts --changed",
