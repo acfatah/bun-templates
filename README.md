@@ -9,10 +9,10 @@
     <img
       alt="Code Style"
       src="https://antfu.me/badge-code-style.svg"></a>
-  <a href="https://github.com/acfatah/bun-ts/commits/main">
+  <a href="https://github.com/acfatah/bun-templates/commits/main">
     <img
       alt="GitHub last commit (by committer)"
-      src="https://img.shields.io/github/last-commit/acfatah/bun-ts?display_timestamp=committer&style=flat-square"></a>
+      src="https://img.shields.io/github/last-commit/acfatah/bun-templates?display_timestamp=committer&style=flat-square"></a>
 </p>
 
 This repository hold boilerplates or templates for creating a TypeScript program with [Bun](https://bun.sh).
@@ -28,7 +28,7 @@ This repository hold boilerplates or templates for creating a TypeScript program
 To create a project using this template, make a new directory with your chosen project name, navigate into it, then run the following command:
 
 ```bash
-bunx --bun tiged acfatah/bun-ts/templates/starter
+bunx --bun tiged acfatah/bun-templates/templates/starter
 ```
 
 Afterwards, you can update and install the latest dependencies with:
@@ -48,7 +48,7 @@ Optionally you may include them with the same command as above.
 Example to copy `build.ts` instead of the entire scripts directory:
 
 ```bash
-bunx --bun get-file acfatah/bun-ts/templates/_/scripts/build.ts
+bunx --bun get-file acfatah/bun-templates/templates/_/scripts/build.ts
 ```
 
 ## Post-install Scripts

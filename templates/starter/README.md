@@ -60,5 +60,5 @@ Optionally add the following compile scripts as needed.
 Optionally add github actions by running the following command:
 
 ```bash
-bunx --bun tiged acfatah/bun-ts/templates/_/.github
+bunx --bun tiged acfatah/bun-templates/templates/_/.github
 ```

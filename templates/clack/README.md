@@ -7,8 +7,8 @@
   <a href="https://github.com/antfu/eslint-config">
     <img alt="Code Style" src="https://antfu.me/badge-code-style.svg">
   </a>
-  <a href="https://github.com/acfatah/bun-ts/commits/clack">
-    <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/acfatah/bun-ts?display_timestamp=committer&style=flat-square">
+  <a href="https://github.com/acfatah/bun-templates/commits/clack">
+    <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/acfatah/bun-templates?display_timestamp=committer&style=flat-square">
   </a>
 </p>
 
@@ -19,7 +19,7 @@ Boilerplate for creating a TypeScript program with [Bun](https://bun.sh).
 1. Copy the repository,
 
 ```bash
-bunx tiged acfatah/bun-ts#clack newproject
+bunx tiged acfatah/bun-templates#clack newproject
 ```
 
 2. Initialize git,
