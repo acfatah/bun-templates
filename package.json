@@ -32,7 +32,7 @@
     "bun-plugin-dts": "^0.3.0",
     "common-tags": "^1.8.2",
     "eslint": "^9.39.2",
-    "eslint-plugin-format": "^1.1.0",
+    "eslint-plugin-format": "^1.2.0",
     "jiti": "^2.6.1",
     "pathe": "^2.0.3",
     "simple-git-hooks": "^2.13.1"
