@@ -28,7 +28,7 @@ Boilerplate for creating a TypeScript library or package on [npm](https://www.np
 - [ ] publish configurations in `.github/workflows/publish.yml`
 
 ```bash
-bun update
+bun update && bun install
 ```
 
 2. Initialize git,

@@ -24,7 +24,7 @@ Boilerplate for creating a CLI application using [Bun](https://bun.sh) and TypeS
 1. Update and install dependencies
 
 ```bash
-bun update
+bun update && bun install
 ```
 
 2. Initialize git,

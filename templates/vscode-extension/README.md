@@ -33,7 +33,7 @@ Boilerplate for creating a TypeScript library or package on [npm](https://www.np
 - [ ] homepage
 
 ```bash
-bun update
+bun update && bun install
 ```
 
 2. Initialize git,

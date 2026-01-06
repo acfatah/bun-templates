@@ -18,7 +18,7 @@ Boilerplate for creating a TypeScript program with [Bun](https://bun.sh).
 1. Update and install dependencies
 
 ```bash
-bun update
+bun update && bun install
 ```
 
 2. Initialize git,
