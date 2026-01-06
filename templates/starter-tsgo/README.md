@@ -11,14 +11,15 @@
       src="https://antfu.me/badge-code-style.svg"></a>
 </p>
 
-Boilerplate for creating a TypeScript program with [Bun](https://bun.sh).
+This template uses `tsgo` for enhanced TypeScript support on VSCode. The `@typescript/native-preview`
+package is installed as peer dependency to enable TypeScript Native Preview in VSCode.
 
 ## Usage
 
 1. Update and install dependencies
 
 ```bash
-bun update
+bun add --peer @typescript/native-preview && bun update && bun install
 ```
 
 2. Initialize git,
@@ -44,3 +45,8 @@ rm -rf .git/hooks && bunx --bun simple-git-hooks
 ```bash
 git commit --no-verify -m "Initial commit"
 ```
+
+## Useful Resources
+
+- https://github.com/microsoft/typescript-go
+- [TypeScript Native Preview VSCode Extension](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.native-preview)
