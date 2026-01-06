@@ -39,6 +39,8 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # keep vscode IDE config for templates
 !templates/*/.vscode
+!archived/*/.vscode
 
 # we dont keep template's lock file
 templates/*/bun.lock
+archived/*/bun.lock

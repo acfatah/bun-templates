@@ -51,6 +51,16 @@ Example to copy `build.ts` instead of the entire scripts directory:
 bunx --bun get-file acfatah/bun-templates/templates/_/scripts/build.ts
 ```
 
+## Archived Templates
+
+Archived templates are stored under `archived`.
+
+You can still use them the same way as the active templates:
+
+```bashbash
+bunx --bun tiged acfatah/bun-templates/archived/clack
+```
+
 ## Post-install Scripts
 
 By default, `bun` will block all post-install scripts, including `simple-git-hooks`.
