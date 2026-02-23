@@ -1,53 +1,30 @@
-import antfu from '@antfu/eslint-config'
+import { defineConfig, markdown, preset, vue } from '@acfatah/eslint-preset'
 
-export default antfu(
+export default defineConfig(
   {
-    formatters: true,
-    typescript: {
-      tsconfigPath: 'tsconfig.json',
-    },
+    type: 'lib',
+
+    vue: true,
+
+    ignores: [
+      '**/coverage/**',
+      '**/dist/**',
+      '**/logs/**',
+      '**/tsconfig.*',
+      'bun.lock',
+      'templates/*/tsconfig.*',
+    ],
   },
 
   {
     rules: {
-      'no-console': 'off',
+      ...preset,
 
-      // https://perfectionist.dev/rules/sort-imports.html
-      'sort-imports': 'off',
-      'perfectionist/sort-imports': [
-        'error',
-        {
-          partitionByNewLine: true,
-          newlinesBetween: 'ignore',
-        },
-      ],
+      // Optional markdown rules
+      ...markdown,
 
-      // https://eslint.style/rules/space-before-function-paren
-      'space-before-function-paren': ['error', {
-        anonymous: 'never',
-        named: 'never',
-        asyncArrow: 'always',
-        // catch: 'never',
-      }],
-
-      // https://eslint.style/rules/padding-line-between-statements
-      'style/padding-line-between-statements': [
-        'error',
-        // require blank line before all return statements
-        { blankLine: 'always', prev: '*', next: 'return' },
-      ],
+      // Specifically for Vue projects
+      ...vue,
     },
-  },
-
-  {
-    name: 'app/files-to-ignore',
-    ignores: [
-      '**/dist/**',
-      '**/coverage/**',
-      '**/logs',
-      '**/upload',
-      'tsconfig.*',
-      'templates/*/tsconfig.*',
-    ],
   },
 )
