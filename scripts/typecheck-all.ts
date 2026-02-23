@@ -1,9 +1,11 @@
 #!/usr/bin/env bun
 
 import type { Dirent } from 'node:fs'
+
 import Bun from 'bun'
 import process from 'node:process'
 import { join } from 'pathe'
+
 import { readDir } from './utils'
 
 const TARGET_DIRS = ['templates']

@@ -23,6 +23,7 @@ import { readFile as fsReadFile, mkdir, readdir, stat } from 'node:fs/promises'
 import process from 'node:process'
 import { parseArgs } from 'node:util'
 import { join, relative, sep } from 'pathe'
+
 import { writeFile as bunWriteFile } from './utils'
 
 const TEMPLATES_DIR = 'templates'

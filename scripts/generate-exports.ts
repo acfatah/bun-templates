@@ -5,6 +5,7 @@
  */
 
 import type { Dirent } from 'node:fs'
+
 import Bun from 'bun'
 import { stripIndent } from 'common-tags'
 import process from 'node:process'
