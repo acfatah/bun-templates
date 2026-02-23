@@ -1,4 +1,5 @@
 import vscode from 'vscode'
+
 import Example from './Example'
 
 export function activate(context: vscode.ExtensionContext) {

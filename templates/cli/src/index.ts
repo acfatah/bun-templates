@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 
 import { Command } from 'commander'
+
 import packageJson from '../package.json'
 import { hello } from './commands/hello'
 

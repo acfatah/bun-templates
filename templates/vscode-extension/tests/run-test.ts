@@ -1,6 +1,5 @@
 import path from 'node:path'
 import process from 'node:process'
-
 import { runTests } from 'vscode-test'
 
 async function main() {

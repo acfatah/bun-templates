@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test'
+
 import { greet } from '../src/index.ts'
 
 describe('greet', () => {
