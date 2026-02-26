@@ -29,9 +29,9 @@ jobs:
         run: bun run build
 
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ${{ vars.PROJECT_NAME }}
-          directory: ./dist
+          packageManager: bun
+          command: pages deploy ./dist --project-name=${{ vars.PROJECT_NAME }}
